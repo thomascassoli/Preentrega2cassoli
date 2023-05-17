@@ -360,11 +360,34 @@ footer{
 
     *{font-family: 'poppins', sans-serif;}
 
+
+
     header{
        z-index: 99;
         width: 1000vw;
         
     }
+
+    .text-index{
+        margin: 29px;
+    }
+    .empresa{
+        margin: 29px;
+    }
+    .marcas{
+        margin: 29px;
+    }
+    .servic{
+        margin: 29px;
+    }
+    .contactenos{
+        margin: 29px;
+    }
+
+   
+    
+
+   
 
     .index-dos{
      display: grid;
@@ -430,7 +453,14 @@ header{
  
     
 .navbar-brand{
-    font-size: 20px;
+    font-size: 22px;
+    
+}
+
+.imglogo{
+    
+    height: 64px;
+    width: 64px;
 }
 
 
@@ -447,19 +477,12 @@ header{
 }
 
 
-
-
-
-
-
-
-
 .formulario{
 width: 100%;
 }
 
 .map{
-    width: 100%;
+    width: 90%;
     height: 900%;
 }
   
@@ -470,6 +493,7 @@ width: 100%;
 
     .fomrucontact{
         padding: 50px;
+        
     }
 
 
@@ -484,6 +508,10 @@ width: 100%;
 
 .card-img-top{
     width: 288px;
+}
+
+#contactenoS{
+    overflow: hidden;
 }
 
 
