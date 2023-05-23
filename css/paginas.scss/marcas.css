@@ -1,0 +1,8 @@
+.marcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 150px;
+}
+
+/*# sourceMappingURL=marcas.css.map */

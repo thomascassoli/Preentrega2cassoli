@@ -1,0 +1,94 @@
+.servic{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    padding:150px 
+}
+
+#cajasServicio{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 20px;
+    
+    gap: 70px;
+    
+    
+
+}
+.caja{
+    padding: 20px;
+    border-radius:12px ;
+    width: 200px;
+    margin: 12px;
+    background-color:palegoldenrod ;
+    color: red;
+    
+}
+
+.card-tittle{
+    font-size: 25px;
+    color: brown;
+}
+
+.sale-dos{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20%;
+}
+
+.caja-dos{
+    padding: 20px;
+    border-radius:12px ;
+    width: 200px;
+    margin: 14px;
+    background-color:palegoldenrod ;
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+.text-red{
+    color: brown;
+}
+.text-red{
+    color: brown;
+}
+.maps-tres{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20%;
+
+
+}
+.caja-tres{
+    padding: 20px;
+    border-radius:12px ;
+    width: 200px;
+    margin: 16px;
+    background-color:palegoldenrod ;
+    color: red;
+    justify-content: center;
+}
+
+.hora-cuatro{
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20%;
+
+}

@@ -1,0 +1,47 @@
+.empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+  }
+  
+  .distric {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: $color-titulo;
+    padding: 18px;
+  }
+  
+  .empresa-familiar {
+    font-size: 25px;
+    padding: 12px;
+  }
+  
+  #empobjvis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  
+    .logo-medio {
+      padding: 12px;
+    }
+  
+    .objetivo {
+      font-size: 35px;
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      margin: 14px;
+    }
+  
+    .vision {
+      font-size: 35px;
+      padding: 20px;
+      border-radius: 12px;
+      width: 200px;
+      margin: 14px;
+    }
+  }

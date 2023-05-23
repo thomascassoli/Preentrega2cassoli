@@ -9,11 +9,11 @@ body{
     color: white;
 }
 h1{
-    color: black;
+    color: green;
 }
 
 header{
-   background-color: peru;
+   background-color:peru;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -58,7 +58,7 @@ header li a{
     flex-direction:row ;
     justify-content: center;
     padding:150px ;
-    color: brown;
+   
 }
 .index-dos{
     font-size: 50px;
@@ -96,7 +96,7 @@ header li a{
     justify-content: center;
     align-items: center;
     padding: 150px;
-    color: brown;
+    
 
 }
 .distric{
@@ -219,7 +219,7 @@ header li a{
 }
 
 h2 {
-    color: brown;
+    color: red;
 }
 .text-red{
     color: brown;
@@ -350,7 +350,6 @@ footer{
     justify-content: center;
     
 }
-
 
 
 
@@ -514,6 +513,10 @@ width: 100%;
     overflow: hidden;
 }
 
+.navbar-toggler:hover{
+    transform: rotate(555deg);
+
+}
 
 
 }

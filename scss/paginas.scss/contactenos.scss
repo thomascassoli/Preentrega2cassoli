@@ -1,0 +1,58 @@
+
+.contactenos{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    padding:150px 
+    
+    
+}
+#contactenoS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    
+    
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+    .text{  
+        margin: 2%;
+    }
+    .password{
+        margin: 2%;
+    }
+    .email{
+        margin: 2%;
+        padding: 8%;
+    }
+    .file{
+        margin: 2%;
+    }
+    
+
+.mapas{
+    padding: 12%;
+    
+}
+
+.numero{
+    margin-left: 34%;
+}
+.logowpp{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    float: left;  
+}
+
+.numerocontacto{
+    margin-right: 12%;
+    display: block;
+   padding: 3%;
+    
+}
