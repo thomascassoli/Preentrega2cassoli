@@ -4,13 +4,13 @@
 }
 
 @if $color-fondo == black {
-    $color-letra: white;
+  $color-letra: white;
 }@else{
-    $color-letra: black; 
+  $color-letra: black; 
 }
 
 body{
-    background-color: $color-fondo;
+    background-color: black;
     color: $color-letra;
     
 }
@@ -49,3 +49,5 @@ header {
       }
     }
   }
+
+ 
