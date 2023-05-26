@@ -5,4 +5,9 @@ footer{
     justify-content: center;
     padding: 10px ;
 }
-
+.find{
+    @include mediaquery-mobile(){
+    font-size: 14px;
+    margin: 0px ;
+    }
+}

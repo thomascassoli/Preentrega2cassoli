@@ -1,6 +1,30 @@
 .marcas{
+   
     display: flex;
     flex-direction:row ;
     justify-content: center;
     padding:150px 
+    }
+
+.text-indexx{
+    @include mediaquery-mobile(){
+        margin-left: 9%;
+        width: 240px;
+        height: 200px;
+        margin-bottom: 12px;
+      }
+    padding: 9px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40%;
+    
+        
 }
+    
+
+
+
+

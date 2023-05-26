@@ -1,59 +1,18 @@
-.contactenos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 150px;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 13 | /     @include mediaquery-mobile(){
+ * 14 | |     overflow: hidden;
+ * 15 | \     }
+ *    '
+ *   scss\paginas.scss\contactenos.scss 13:2  root stylesheet */
 
-#contactenoS {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-}
-
-.text {
-  margin: 2%;
-}
-
-.password {
-  margin: 2%;
-}
-
-.email {
-  margin: 2%;
-  padding: 8%;
-}
-
-.file {
-  margin: 2%;
-}
-
-.mapas {
-  padding: 12%;
-}
-
-.numero {
-  margin-left: 34%;
-}
-
-.logowpp {
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  float: left;
-}
-
-.numerocontacto {
-  margin-right: 12%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  padding: 3%;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 13 \2502  \250c      @include mediaquery-mobile(){\a 14 \2502  \2502      overflow: hidden;\a 15 \2502  \2514      }\a    \2575 \a   scss\\paginas.scss\\contactenos.scss 13:2  root stylesheet";
 }
-
-/*# sourceMappingURL=contactenos.css.map */

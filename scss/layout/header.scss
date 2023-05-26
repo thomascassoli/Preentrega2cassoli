@@ -12,6 +12,8 @@
 body{
     background-color: black;
     color: $color-letra;
+    overflow-x: hidden;
+    
     
 }
 
@@ -26,6 +28,19 @@ header {
     left: 0;
     width: 100%;
     z-index: 99;
+    @include mediaquery-mobile(){
+      background-color: $color-primario;
+      width: 100vw;
+      z-index: 99%;
+      width: 100vw;
+    }
+
+
+
+
+
+   
+  
   
     img {
       width: 100px;

@@ -1,92 +1,18 @@
-.servic {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 150px;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 16 | /     @include mediaquery-mobile(){
+ * 17 | |     display: grid;
+ * 18 | \     }
+ *    '
+ *   scss\paginas.scss\servicios.scss 16:2  root stylesheet */
 
-#cajasServicio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  padding: 20px;
-  gap: 70px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 16 \2502  \250c      @include mediaquery-mobile(){\a 17 \2502  \2502      display: grid;\a 18 \2502  \2514      }\a    \2575 \a   scss\\paginas.scss\\servicios.scss 16:2  root stylesheet";
 }
-
-.caja {
-  padding: 20px;
-  border-radius: 12px;
-  width: 200px;
-  margin: 12px;
-  background-color: palegoldenrod;
-  color: red;
-}
-
-.card-tittle {
-  font-size: 25px;
-  color: brown;
-}
-
-.sale-dos {
-  width: 50px;
-  height: 50px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20%;
-}
-
-.caja-dos {
-  padding: 20px;
-  border-radius: 12px;
-  width: 200px;
-  margin: 14px;
-  background-color: palegoldenrod;
-  color: red;
-}
-
-h2 {
-  color: red;
-}
-
-.text-red {
-  color: brown;
-}
-
-.text-red {
-  color: brown;
-}
-
-.maps-tres {
-  width: 50px;
-  height: 50px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20%;
-}
-
-.caja-tres {
-  padding: 20px;
-  border-radius: 12px;
-  width: 200px;
-  margin: 16px;
-  background-color: palegoldenrod;
-  color: red;
-  justify-content: center;
-}
-
-.hora-cuatro {
-  width: 50px;
-  height: 50px;
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 20%;
-}
-
-/*# sourceMappingURL=servicios.css.map */
