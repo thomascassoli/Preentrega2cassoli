@@ -8,10 +8,14 @@
 
 .text-indexx{
     @include mediaquery-mobile(){
-        margin-left: 9%;
-        width: 240px;
-        height: 200px;
-        margin-bottom: 12px;
+        margin: 9%;
+        overflow-x: hidden;
+        width: 69%;
+        padding: 0%;
+        margin-left: 4%;
+	
+      
+       
       }
     padding: 9px;
     width: 500px;

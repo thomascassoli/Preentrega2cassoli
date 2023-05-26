@@ -254,10 +254,11 @@ footer {
 }
 @media (max-width: 660px) {
   .text-indexx {
-    margin-left: 9%;
-    width: 240px;
-    height: 200px;
-    margin-bottom: 12px;
+    margin: 9%;
+    overflow-x: hidden;
+    width: 69%;
+    padding: 0%;
+    margin-left: 4%;
   }
 }
 
@@ -367,6 +368,26 @@ h2 {
   }
 }
 
+.formulario-1 {
+  margin-top: 20px;
+}
+
+.formulario-2 {
+  margin-top: 40px;
+}
+
+.formulario-3 {
+  margin-top: 60px;
+}
+
+.formulario-4 {
+  margin-top: 80px;
+}
+
+.formulario-5 {
+  margin-top: 100px;
+}
+
 .contactenos {
   display: flex;
   flex-direction: row;
@@ -397,21 +418,15 @@ h2 {
   }
 }
 
-.text {
-  margin: 2%;
-}
-
-.password {
+.text,
+.password,
+.email,
+.file {
   margin: 2%;
 }
 
 .email {
-  margin: 2%;
   padding: 8%;
-}
-
-.file {
-  margin: 2%;
 }
 
 .mapas {
